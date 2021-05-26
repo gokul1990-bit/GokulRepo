@@ -1,0 +1,25 @@
+io.cucumber.junit.UndefinedStepException: The step 'The user is present in the Login page of the application' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("The user is present in the Login page of the application")
+public void the_user_is_present_in_the_login_page_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("The user enters the email qatest@habile.in and the password Qatest123$")
+public void the_user_enters_the_email_qatest_habile_in_and_the_password_qatest123$() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("The user clicks on the SignIn button")
+public void the_user_clicks_on_the_sign_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be navigated to the CloudBankIn home page")
+public void user_should_be_navigated_to_the_cloud_bank_in_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

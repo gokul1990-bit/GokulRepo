@@ -1,0 +1,63 @@
+package pages;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage {
+
+	private WebDriver driver;
+
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		//PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//*[@id=\"uid\"]")
+	WebElement email;
+
+	@FindBy(id = "pwd")
+	WebElement Password;
+
+	@FindBy(id = "login-button")
+	WebElement SignIn;
+
+	public void urlLaunch() {
+		String projectpath = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",
+				projectpath + "\\src\\test\\resources\\Resources\\chromedriver.exe");
+
+		driver = new ChromeDriver();
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+		driver.manage().window().maximize();
+		driver.get("https://salesdemo.habiletechnologies.com/");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		System.out.println("This is working till before entering username");
+
+	}
+
+	public void enterUsername(String username) {
+		
+		System.out.println("This is working till entering username");
+
+		email.sendKeys("gokultestdata");
+		
+	}
+
+	public void enterPassword(String password) {
+
+		Password.sendKeys(password);
+	}
+
+	public void clickLogin() {
+
+		SignIn.click();
+	}
+}

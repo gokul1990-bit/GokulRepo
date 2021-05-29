@@ -1,0 +1,26 @@
+package stepDefinitions;
+
+public class FlipkartLoginSD {
+	
+	 @Given("^The user is present in the login of the application$")
+	    public void the_user_is_present_in_the_login_of_the_application() throws Throwable {
+	        throw new PendingException();
+	    }
+
+	    @When("^The user enters (.+) and (.+)$")
+	    public void the_user_enters_and(String username, String password) throws Throwable {
+	        throw new PendingException();
+	    }
+
+	    @Then("^The user should be nvigated to the home page of the application$")
+	    public void the_user_should_be_nvigated_to_the_home_page_of_the_application() throws Throwable {
+	        throw new PendingException();
+	    }
+
+	    @And("^Clicks on Login button$")
+	    public void clicks_on_login_button() throws Throwable {
+	        throw new PendingException();
+	    }
+
+
+}

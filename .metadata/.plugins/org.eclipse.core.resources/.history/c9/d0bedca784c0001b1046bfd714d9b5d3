@@ -1,0 +1,10 @@
+Feature: Flipkart Login functionality 
+
+
+
+Scenario Outline:
+
+Given The user is present in the login of the application 
+When The user enters username and password
+And Clicks on Login button 
+Then The user should be nvigated to the home page of the application 

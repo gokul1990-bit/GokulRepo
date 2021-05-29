@@ -16,10 +16,31 @@ public class FlipkartLoginPage {
 
 	}
 
-	@FindBy(className = "_2IX_2- VJZDxU")
+	@FindBy(xpath = "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input")
 	WebElement username;
 
-	@FindBy(className = "_2IX_2- _3mctLh VJZDxU")
+	@FindBy(xpath = "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input")
 	WebElement password;
+
+	@FindBy(xpath = "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button")
+	WebElement LoginButton;
+
+	public void enterUsername(String usernameText) {
+
+		username.sendKeys(usernameText);
+
+		System.out.println("+++++++++++Flipkart Username+++++++++++++");
+	}
+
+	public void enterPassword(String passwordtext) {
+
+		password.sendKeys(passwordtext);
+		System.out.println("+++++++++++Flipkart password+++++++++++++");
+	}
+
+	public void clickLogin() {
+
+		LoginButton.click();
+	}
 
 }

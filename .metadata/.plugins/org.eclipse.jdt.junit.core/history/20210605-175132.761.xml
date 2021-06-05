@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="HabileTechnologies" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="stepDefinitions.TestRunner" time="9.353">
+    <testsuite name="Flipkart Login functionality" time="9.353">
+      <testsuite name="To verify whether user is able to login to the flipkart application" time="9.353">
+        <testcase name="The user is present in the login of the application" classname="To verify whether user is able to login to the flipkart application" time="7.783"/>
+        <testcase name="The user enters gokul.shankar101@gmail.com and abashed13705" classname="To verify whether user is able to login to the flipkart application" time="1.005"/>
+        <testcase name="Clicks on Login button" classname="To verify whether user is able to login to the flipkart application" time="0.224"/>
+        <testcase name="The user should be nvigated to the home page of the application" classname="To verify whether user is able to login to the flipkart application" time="0.341"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

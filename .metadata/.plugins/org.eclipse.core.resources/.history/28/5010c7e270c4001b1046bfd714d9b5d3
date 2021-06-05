@@ -1,0 +1,15 @@
+package stepDefinitions;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src\\test\\resources\\features", glue = {
+		"src\\test\\java\\stepDefinitions" }, tags = "@FlipkartLogin or @FlipkartCartPage", monochrome = true, plugin = {
+				"pretty", "html:target/HtmlReports" })
+
+public class TestRunner {
+
+}

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="HabileTechnologies" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="stepDefinitions.TestRunner" time="7.407">
-    <testsuite name="Flipkart Login functionality" time="7.407">
-      <testcase name="To verify whether user is able to login to the flipkart application" classname="Flipkart Login functionality" time="7.407"/>
-    </testsuite>
-  </testsuite>
-</testrun>

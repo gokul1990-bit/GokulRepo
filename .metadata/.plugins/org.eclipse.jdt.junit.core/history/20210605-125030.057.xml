@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="HabileTechnologies" tests="8" started="8" failures="0" errors="4" ignored="0">
+  <testsuite name="stepDefinitions.TestRunner" time="8.863">
+    <testsuite name="Flipkart Login functionality" time="8.863">
+      <testsuite name="To verify whether user is able to login to the flipkart application" time="8.753" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at pages.FlipkartHomePage.globalSearch(FlipkartHomePage.java:22)&#13;
+	at stepDefinitions.FlipkartLoginSD.the_user_should_be_nvigated_to_the_home_page_of_the_application(FlipkartLoginSD.java:58)&#13;
+	at ✽.The user should be nvigated to the home page of the application(file:///C:/Users/DELL/eclipse-workspace/HabileTechnologies/src/test/resources/features/FlipkartLogin.feature:8)&#13;
+&#13;
+</error>
+        <testcase name="The user is present in the login of the application" classname="To verify whether user is able to login to the flipkart application" time="7.628"/>
+        <testcase name="The user enters gokul.shankar101@gmail.com and abashed13705" classname="To verify whether user is able to login to the flipkart application" time="0.802"/>
+        <testcase name="Clicks on Login button" classname="To verify whether user is able to login to the flipkart application" time="0.303"/>
+        <testcase name="The user should be nvigated to the home page of the application" classname="To verify whether user is able to login to the flipkart application" time="0.02">
+          <error>java.lang.NullPointerException&#13;
+	at pages.FlipkartHomePage.globalSearch(FlipkartHomePage.java:22)&#13;
+	at stepDefinitions.FlipkartLoginSD.the_user_should_be_nvigated_to_the_home_page_of_the_application(FlipkartLoginSD.java:58)&#13;
+	at ✽.The user should be nvigated to the home page of the application(file:///C:/Users/DELL/eclipse-workspace/HabileTechnologies/src/test/resources/features/FlipkartLogin.feature:8)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="To verify whether user is able to add products in the Cart" time="0.02" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'The user is on the Flipkart home page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("The user is on the Flipkart home page")
+public void the_user_is_on_the_flipkart_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("The users searches for the product and navigates to the product details page")
+public void the_users_searches_for_the_product_and_navigates_to_the_product_details_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("The user adds the product to the Cart section")
+public void the_user_adds_the_product_to_the_cart_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("The product should be added in the My Cart section")
+public void the_product_should_be_added_in_the_my_cart_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="The user is on the Flipkart home page" classname="To verify whether user is able to add products in the Cart" time="0.01">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'The user is on the Flipkart home page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("The user is on the Flipkart home page")
+public void the_user_is_on_the_flipkart_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("The users searches for the product and navigates to the product details page")
+public void the_users_searches_for_the_product_and_navigates_to_the_product_details_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("The user adds the product to the Cart section")
+public void the_user_adds_the_product_to_the_cart_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("The product should be added in the My Cart section")
+public void the_product_should_be_added_in_the_my_cart_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="The users searches for the product and navigates to the product details page" classname="To verify whether user is able to add products in the Cart" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="The user adds the product to the Cart section" classname="To verify whether user is able to add products in the Cart" time="0.008">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="The product should be added in the My Cart section" classname="To verify whether user is able to add products in the Cart" time="0.002">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
